@@ -1,0 +1,142 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+.wrapper {
+	width: 100vw;
+	height: 100vh;
+}
+.wrapper,
+.logo-overlay,
+.img-footer {
+	display: flex;
+	flex-flow: row wrap;
+}
+.img-sidebar {
+	background-image: url(img/unsplash.jpg);
+	background-size: auto;
+	background-position: center;
+	background-repeat: no-repeat;
+	width: 40vw;
+}
+.logo-overlay {
+	position: relative;
+	height: auto;
+	gap: 2vw;
+	align-items: center;
+	justify-content: center;
+	background-color: rgba(0, 0, 0, 0.479);
+	color: white;
+	padding: 20px 0;
+	top: 20vh;
+	font-family: "Caveat", cursive;
+	font-size: 3em;
+}
+.logo {
+	width: 80px;
+}
+.img-footer {
+	display: block;
+	font-weight: 400;
+	font-family: "Poppins", sans-serif;
+	color: white;
+	position: absolute;
+	bottom: 10px;
+	left: 384px;
+	transform: translate(-50%, 0);
+}
+a {
+	color: white;
+}
+.unsplash-links {
+	color: white;
+}
+
+.right {
+	background-color: #f9fafb;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	width: 60vw;
+}
+.left {
+	padding-left: 3vw;
+}
+.service-text {
+	width: 90%;
+	font-weight: 500;
+	font-family: "Poppins", sans-serif;
+	font-size: 1.5rem;
+}
+.hook-text {
+	margin: 20px 0 40px;
+}
+.form {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background-color: white;
+	display: flex;
+	flex-wrap: wrap;
+	gap: 50px;
+}
+.form-title {
+	width: 100%;
+	font-weight: 500;
+	font-family: "Poppins", sans-serif;
+	font-size: 1.5rem;
+}
+.form-input {
+	width: 40%;
+	display: flex;
+	flex-direction: column;
+}
+input {
+	padding: 5px;
+	font-size: 1.3rem;
+	height: 40px;
+}
+label {
+	font-weight: 400;
+	font-family: "Poppins", sans-serif;
+	font-size: 1rem;
+	text-transform: uppercase;
+}
+.login {
+	margin-top: 0px;
+}
+
+.login-btn {
+	padding: 20px;
+	background-color: #596d48;
+	color: white;
+	font-weight: 500;
+	font-family: "Poppins", sans-serif;
+	font-size: 1.3rem;
+	border: none;
+	border-radius: 10px;
+	margin-top: 40px;
+	margin-bottom: 40px;
+	transition: all 0.2s;
+}
+.login-btn:hover {
+	transform: translateY(-3px);
+	background-color: #596d48;
+	box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+}
+.login-btn:active {
+	transform: translateY(-1px);
+	background-color: #596d48;
+	box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+}
+.login-text {
+	font-weight: 500;
+	font-family: "Poppins", sans-serif;
+	font-size: 1.2rem;
+}
+.log-in {
+	color: #596d48;
+}
+.log-in:hover {
+	text-decoration: underline;
+}
